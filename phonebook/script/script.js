@@ -1,36 +1,6 @@
 'use strict';
-// const data = [
-//     {
-//         name: 'Иван',
-//         surname: 'Петров',
-//         phone: '+79514545454',
-//     },
-//     {
-//         name: 'Игорь',
-//         surname: 'Семёнов',
-//         phone: '+79999999999',
-//     },
-//     {
-//         name: 'Семён',
-//         surname: 'Иванов',
-//         phone: '+79800252525',
-//     },
-//     {
-//         name: 'Мария',
-//         surname: 'Попова',
-//         phone: '+79876543210',
-//     },
-// ];
-
-//payments.push(Object.defineProperties({}, Object.getOwnPropertyDescriptors(payment)));
-
-
 
 {
-    // const addContactData = contact => {
-    //     data.push(contact);
-    //     console.log('data: ', data);
-    // };
     const createContainer = () => {
         const container = document.createElement('div');
         container.classList.add('container');
@@ -145,7 +115,6 @@
         return footer;
     };
     const renderPhoneBook = (app, title) => {
-        //const app = document.querySelector(selectorApp);
         const header = createHeader();
         const logo = createLogo(title);
         const main = createMain();
